@@ -1,0 +1,470 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #494949;
+    
+}
+
+header {
+    margin-top: 50px;
+    background-color: #414141;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+   
+}
+header h1 {
+    margin: 0;
+}
+.navbar,a{
+    color: rgb(229, 236, 124);
+
+}
+.navbar {
+    
+    background-color: #363635;
+    overflow: hidden;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+   
+}
+.pnng{
+    height: 700px;
+    width: 800px;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ffffff;
+    color: rgba(17, 17, 17, 0.959);
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product {
+    width: 22%;
+    background-color: white;
+    margin: 10px 0;
+    margin-top: 50px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 80px;
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+.product h3 {
+    margin: 10px 0;
+}
+.product .price {
+    color: #28a745;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.product .buy-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.product .buy-btn:hover {
+    background-color: #218838;
+}
+.about, .offers, .payment-area {
+    background-color: rgb(134, 134, 134);
+    margin: 20px 0;
+    padding: 30px;
+    text-align: center;
+}
+.img{
+    height: 700px;
+    width: 1300px;
+}
+.offers,h1{
+    margin-top: 100px;
+    color: rgb(109, 83, 253);
+    text-decoration: underline wavy;
+}
+.about p {
+    font-size: 16px;
+    color: #555;
+}
+.payment-area form input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+.aboutus{
+    color: black;
+}
+.payment-area form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.payment-area form button:hover {
+    background-color: #0056b3;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+.demo1{
+    height: 10px;
+    width: 10px;
+    background-color:rgb(7, 7, 7) ;
+    transition: all 2s ease-in;
+    margin-left: 650px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .demo1:hover {
+    height: 10px;
+    width: 10px;
+    margin-left: 650px;
+    border: #f39c12 solid 3px;
+    margin-top: 20px;
+    background-color:rgb(245, 187, 112) ;
+    border-radius: 30px;
+    border: 2px solid rgb(245, 187, 112);
+    transform: scale(1.2) rotate(360deg)  ;
+}
+.product{
+    position: relative;
+    display: inline-block;
+}
+.hova{
+    width: 100%; /* Image ki width set karen */
+    height: auto;
+    display: block;
+}
+.imagea{
+    background-color: rgb(201, 201, 201);
+    position: absolute;
+    bottom: 105px;  /* Name will appear 30px from the bottom of the image */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;  /* Initially, the name will be invisible */
+    color: rgb(216, 70, 70); /* Text color */
+    font-size: 20px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+.product:hover .imagea {
+    opacity: 1; /* Hover karte hi name dikhai dega */
+}
+.product{
+    position: relative;
+    display: inline-block;
+}
+.hovb{
+    width: 100%; /* Image ki width set karen */
+    height: auto;
+    display: block;
+}
+.imageb{
+    background-color: rgb(201, 201, 201);
+    position: absolute;
+    bottom: 120px;  /* Name will appear 30px from the bottom of the image */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;  /* Initially, the name will be invisible */
+    color: rgb(216, 70, 70); /* Text color */
+    font-size: 20px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+.product:hover .imageb {
+    opacity: 1; /* Hover karte hi name dikhai dega */
+}
+.product{
+    position: relative;
+    display: inline-block;
+}
+.hovc{
+    width: 100%; /* Image ki width set karen */
+    height: auto;
+    display: block;
+}
+.imagec{
+    background-color: rgb(201, 201, 201);
+    position: absolute;
+    bottom: 120px;  /* Name will appear 30px from the bottom of the image */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;  /* Initially, the name will be invisible */
+    color: rgb(216, 70, 70); /* Text color */
+    font-size: 20px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+.product:hover .imagec {
+    opacity: 1; /* Hover karte hi name dikhai dega */
+}
+.product{
+    position: relative;
+    display: inline-block;
+}
+.hovd{
+    width: 100%; /* Image ki width set karen */
+    height: auto;
+    display: block;
+}
+.imaged{
+    background-color: rgb(201, 201, 201);
+    position: absolute;
+    bottom: 120px;  /* Name will appear 30px from the bottom of the image */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;  /* Initially, the name will be invisible */
+    color: rgb(216, 70, 70); /* Text color */
+    font-size: 20px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+.product:hover .imaged {
+    opacity: 1; /* Hover karte hi name dikhai dega */
+}
+.product{
+    position: relative;
+    display: inline-block;
+}
+.hove{
+    width: 100%; /* Image ki width set karen */
+    height: auto;
+    display: block;
+}
+.imagee{
+    background-color: rgb(201, 201, 201);
+    position: absolute;
+    bottom: 170px;  /* Name will appear 30px from the bottom of the image */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;  /* Initially, the name will be invisible */
+    color: rgb(216, 70, 70); /* Text color */
+    font-size: 20px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+.homebutton{
+    font-size: 50px;
+    font-style: oblique;
+    margin-left: 600px;
+}
+.product:hover .imagee {
+    opacity: 1; /* Hover karte hi name dikhai dega */
+}
+.product{
+    position: relative;
+    display: inline-block;
+}
+.hovf{
+    width: 100%; /* Image ki width set karen */
+    height: auto;
+    display: block;
+}
+.imagef{
+    position: absolute;
+    background-color: rgb(201, 201, 201);
+    bottom: 170px;  /* Name will appear 30px from the bottom of the image */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;  /* Initially, the name will be invisible */
+    color: rgb(216, 70, 70); /* Text color */
+    font-size: 20px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+.product:hover .imagef {
+    opacity: 1; /* Hover karte hi name dikhai dega */
+}
+.product{
+    position: relative;
+    display: inline-block;
+}
+.hovg{
+    width: 100%; /* Image ki width set karen */
+    height: auto;
+    display: block;
+}
+.imageg{
+    background-color: rgb(201, 201, 201);
+    position: absolute;
+    bottom: 120px;  /* Name will appear 30px from the bottom of the image */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;  /* Initially, the name will be invisible */
+    color: rgb(216, 70, 70); /* Text color */
+    font-size: 20px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+.product:hover .imageg {
+    opacity: 1; /* Hover karte hi name dikhai dega */
+}
+.product{
+    position: relative;
+    display: inline-block;
+}
+.hovh{
+    width: 100%; /* Image ki width set karen */
+    height: auto;
+    display: block;
+}
+.imageh{
+    background-color: rgb(201, 201, 201);
+    position: absolute;
+    bottom: 120px;  /* Name will appear 30px from the bottom of the image */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0;  /* Initially, the name will be invisible */
+    color: rgb(216, 70, 70); /* Text color */
+    font-size: 20px;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+}
+.product:hover .imageh {
+    opacity: 1; /* Hover karte hi name dikhai dega */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+/* Product Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.product-card:hover img {
+    transform: scale(1.1);
+}
+
+.product-card .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.product-card:hover .info {
+    opacity: 1;
+}
+
+.info .name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info .price {
+    font-size: 16px;
+    color: #f39c12;
+}
+
+.info .buy-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Payment Modal */
+.payment-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.payment-modal .modal-content {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.payment-modal .close-btn {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
